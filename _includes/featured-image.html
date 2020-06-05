@@ -1,3 +1,11 @@
-  {% if post.featured_image %}
-  <img class="img-responsive" src="{{ post.featured_image }}" title="{{ post.title }}">
-  {% endif %}
+{% if post.featured_image %}
+<img class="img-responsive" src="{{ post.featured_image }}" title="{{ post.title }}">
+{% endif %}
+{% if post.featured_audio %}
+<audio controls>
+  <source src="/audio/{{ post.featured_audio }}" type="audio/mpeg">
+</audio>
+{% endif %}
+{% if post.featured_spotify %}
+<div class="embed-responsive"><iframe src="{{ post.featured_spotify }}" allowtransparency="true" allow="encrypted-media"></iframe></div>
+{% endif %}

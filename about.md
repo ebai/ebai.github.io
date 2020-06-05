@@ -11,7 +11,7 @@ I grew up in Massachusetts, studying performance at Berklee College of Music and
 
 I spent several years releasing electronic music under the alias [soupandreas](http://soupandreas.com/), which accrued millions of plays and let me perform my music around the country.
 
-<table class="table"><tr><th class="text-left"><iframe src="https://open.spotify.com/embed/track/4VaCl3d8D24eGGDf786siN" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></th><th class="text-right"><iframe src="https://open.spotify.com/embed/track/1Y3knDCl6cebMyffIe2Rf9" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></th></tr></table>
+<iframe src="https://open.spotify.com/embed/track/4VaCl3d8D24eGGDf786siN" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><iframe src="https://open.spotify.com/embed/track/1Y3knDCl6cebMyffIe2Rf9" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 I also built up a strong passion for programming and design in school. I founded Odea[link] with three like-minded friends and we set out to build instruments that encourage new ways of making music. While studying studying sound spatialization and synthesis at [IRCAM](https://www.ircam.fr/), I began working on what would eventually become Odea's first product, the Chorale.
 
