@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # about me
 
-_**I am a 21 year music producer, composer, software developer and music technologist living in New York City.**_
+_**I am a music producer, songwriter, software developer and music technologist living in New York City.**_
 
 ---
 
