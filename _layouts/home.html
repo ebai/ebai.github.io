@@ -6,28 +6,44 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-
-            {% if site.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.section_title }}</h2>
-            {% endif %}
-            {% if site.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
-            {% endif %}
-
+            <h2 class="section-title text-center">tech</h2>
+            <p class="section-subtitle text-center">here's what i've been building lately.</p>
             <div class="break"></div>
-
             {% for post in site.posts %}
-              <div class="wow fadeIn">
-              {% if post.position == "left" %}
-                {% include content-left.html %}
+              {% if post.category == "tech" %}
+                <div class="wow fadeIn">
+                {% if post.position == "left" %}
+                  {% include content-left.html %}
+                {% endif %}
+          
+                {% if post.position == "right" %}
+                  {% include content-right.html %}
+                {% endif %}
+                </div>
               {% endif %}
-
-              {% if post.position == "right" %}
-                {% include content-right.html %}
-              {% endif %}
-              </div>
             {% endfor %}
-
+          </div>
+        </div>
+        <!-- <div class="break"></div> -->
+        <div class="row">
+          <div class="break"></div>
+          <div class="col-md-12">
+            <h2 class="section-title text-center">music</h2>
+            <p class="section-subtitle text-center">some of the music i make.</p>
+            <div class="break"></div>
+            {% for post in site.posts %}
+              {% if post.category == "music" %}
+                <div class="wow fadeIn">
+                {% if post.position == "left" %}
+                  {% include content-left.html %}
+                {% endif %}
+          
+                {% if post.position == "right" %}
+                  {% include content-right.html %}
+                {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
           </div>
         </div>
       </div>
